@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  border: 0;
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 0.21875rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.header {
+  height: 0.6875rem;
+  display: flex;
+  align-items: center;
+}
+.header a {
+  width: 1.09375rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d1019e;
+}
+.header a .sjx {
+  margin-left: 0.03125rem;
+}
+.header .title {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.3125rem;
+}
+.header .my {
+  background: url(../images/icon/my.png) no-repeat center center/0.390625rem auto;
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding-bottom: 0.25rem;
+}
+.main .banner img {
+  width: 100%;
+  height: 100%;
+}
+.main .nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.0625rem;
+}
+.main .nav a {
+  width: 33.333%;
+  height: 1.71875rem;
+  padding: 0.0625rem;
+}
+.main .nav a img {
+  width: 100%;
+  height: 100%;
+}
+.main .tools {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.0625rem;
+}
+.main .tools a {
+  width: 25%;
+  border: 1px solid #e6e6e6;
+}
+.main .tools a img {
+  width: 100%;
+}
+.main .tools a:nth-child(2n-1) {
+  border-left: 0;
+}
+.main .tools a:nth-child(2n) {
+  border-left: 0;
+}
+.main .tools a:nth-child(n+5) {
+  border-top: 0;
+}
+.main .tools a:nth-child(4n) {
+  border-right: 0;
+}
+.main .maintitle {
+  display: flex;
+  height: 3.5rem;
+  margin-top: 0.234375rem;
+  border-bottom: 1px solid #ccc;
+}
+.main .maintitle .left {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  border-right: 1px solid #ccc;
+}
+.main .maintitle .left img {
+  width: 100%;
+  height: 100%;
+}
+.main .maintitle .right {
+  flex: 1;
+  height: 100%;
+  display: flex;
+}
+.main .maintitle .right a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main .maintitle .right a img {
+  height: 50%;
+  width: 100%;
+}
+.main .maintitle .right a img:nth-child(1) {
+  border-bottom: 1px solid #ccc;
+}
+.main .hotproduct {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.25rem;
+}
+.main .hotproduct .title {
+  height: 0.53125rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  padding-left: 0.25rem;
+  font-size: 0.25rem;
+  color: #555555;
+}
+.main .hotproduct .hotList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.main .hotproduct .hotList a {
+  height: 1.90625rem;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.main .hotproduct .hotList a img {
+  height: 100%;
+  width: 100%;
+}
+.main .weeks {
+  display: flex;
+  flex-direction: column;
+}
+.main .weeks .title {
+  height: 0.6875rem;
+  display: flex;
+  justify-content: space-around;
+}
+.main .weeks .title a {
+  width: 1.015625rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.21875rem;
+  color: #000;
+}
+.main .weeks .title a.active {
+  border-bottom: 2px solid #d9009b;
+  color: #d9009b;
+}
+.main .weeks .weeksList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.main .weeks .weeksList a {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.25rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.main .weeks .weeksList a img {
+  width: 100%;
+  height: 4.09375rem;
+}
+.main .weeks .weeksList a .hot {
+  line-height: 0.375rem;
+  font-size: 0.1875rem;
+  color: #000;
+}
+.main .weeks .weeksList a .introduce {
+  line-height: 0.46875rem;
+  font-size: 0.25rem;
+  color: #555;
+}
+.main .weeks .more {
+  height: 0.46875rem;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  color: #555555;
+}
+.main .weeks .more span {
+  margin-left: 0.5rem;
+  font-size: 0.25rem;
+}
+
+.footer {
+  background-color: #d3079e;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  padding: 0rem 0.15625rem;
+}
+.footer a {
+  color: #fff;
+  font-size: 0.25rem;
+  font-weight: bold;
+}
+.footer .login {
+  margin-left: 0.375rem;
+}
+
+/*# sourceMappingURL=index.css.map */

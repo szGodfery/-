@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        document.querySelector("html").style.fontSize = window.screen.width / 10 + "px";
+        if (window.screen.width > 640) {
+            document.querySelector("html").style.fontSize = 64 + "px";
+        };
+    </script>
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <script src="./lib/swiper/js/swiper.min.js"></script>
+    <script src="./lib/js/index.js"></script>
+</head>
+
+<body>
+    <div class="header clearfix">
+        <a href=""><span class="city">上海</span><span class="sjx">▼</span></a>
+        <p class="title">驴妈妈旅游网</p>
+        <a href="" class="my"></a>
+
+    </div>
+    <div class="main clearfix">
+
+        <!-- 轮播图 -->
+        <div class="banner clearfix">
+            <!-- 轮播图用swiper插件做,复制html结构 -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/img/banner1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/img/banner2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/img/banner3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/img/banner4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/img/banner5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- 小点点 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- nav导航部分 -->
+        <div class="nav clearfix">
+            <a href=""><img src="images/icon/nav1.png" alt=""></a>
+            <a href=""><img src="images/icon/nav2.png" alt=""></a>
+            <a href=""><img src="images/icon/nav3.png" alt=""></a>
+            <a href=""><img src="images/icon/nav4.png" alt=""></a>
+            <a href=""><img src="images/icon/nav5.png" alt=""></a>
+            <a href=""><img src="images/icon/nav6.png" alt=""></a>
+        </div>
+        <!-- 商品展示部分 -->
+        <div class="tools clearfix">
+            <a href=""><img src="images/icon/j1.png" alt=""></a>
+            <a href=""><img src="images/icon/j2.png" alt=""></a>
+            <a href=""><img src="images/icon/j3.png" alt=""></a>
+            <a href=""><img src="images/icon/j4.png" alt=""></a>
+            <a href=""><img src="images/icon/j5.png" alt=""></a>
+            <a href=""><img src="images/icon/j6.png" alt=""></a>
+            <a href=""><img src="images/icon/j7.png" alt=""></a>
+            <a href=""><img src="images/icon/j8.png" alt=""></a>
+        </div>
+        <!-- 主题部分 -->
+        <div class="maintitle clearfix">
+            <div class="left">
+                <a href="">
+                    <img src="images/img/t1.jpg" alt="">
+                </a>
+
+            </div>
+            <div class="right">
+                <a href="">
+                    <img src="images/img/t2.jpg" alt="">
+                    <img src="images/img/t3.jpg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <!-- 热门活动 -->
+        <div class="hotproduct clearfix">
+            <p class="title">热门活动</p>
+            <div class="hotList">
+                <a href=""><img src="images/img/r1.jpg" alt=""></a>
+                <a href=""><img src="images/img/r2.jpg" alt=""></a>
+                <a href=""><img src="images/img/r3.jpg" alt=""></a>
+                <a href=""><img src="images/img/r4.jpg" alt=""></a>
+            </div>
+        </div>
+        <!-- 周末 -->
+        <div class="weeks clearfix">
+            <p class="title">
+                <a href="" class="active">度周末</a>
+                <a href="">度长假</a>
+            </p>
+            <div class="weeksList">
+                <a href="">
+                    <img src="images/img/zm1.jpg" alt="">
+                    <p class="hot">[热门活动]驴妈妈温泉季</p>
+                    <p class="introduce">听音乐,泡温泉,就找驴妈妈,泉新玩法,全心为你,5折整点秒杀,立减高达100元</p>
+                </a>
+                <a href="">
+                    <img src="images/img/zm2.jpg" alt="">
+                    <p class="hot">[热门活动]驴妈妈温泉季</p>
+                    <p class="introduce">听音乐,泡温泉,就找驴妈妈,泉新玩法,全心为你,5折整点秒杀,立减高达100元</p>
+                </a>
+                <a href="">
+                    <img src="images/img/zm3.jpg" alt="">
+                    <p class="hot">[热门活动]驴妈妈温泉季</p>
+                    <p class="introduce">听音乐,泡温泉,就找驴妈妈,泉新玩法,全心为你,5折整点秒杀,立减高达100元</p>
+                </a>
+                <a href="">
+                    <img src="images/img/zm4.jpg" alt="">
+                    <p class="hot">[热门活动]驴妈妈温泉季</p>
+                    <p class="introduce">听音乐,泡温泉,就找驴妈妈,泉新玩法,全心为你,5折整点秒杀,立减高达100元</p>
+                </a>
+                <a href="">
+                    <img src="images/img/zm5.jpg" alt="">
+                    <p class="hot">[热门活动]驴妈妈温泉季</p>
+                    <p class="introduce">听音乐,泡温泉,就找驴妈妈,泉新玩法,全心为你,5折整点秒杀,立减高达100元</p>
+                </a>
+            </div>
+            <div class="more">查看更多 <span>∨</span></div>
+        </div>
+    </div>
+    <div class="footer clearfix">
+        <a href="" class="fl">免费注册</a>
+        <a href="" class="fl login">登录</a>
+        <a href="" class="fr">TOP</a>
+    </div>
+
+
+
+</body>
+
+</html>
